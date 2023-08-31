@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # import required packages
 import cv2
 from keras.models import Sequential
@@ -69,10 +63,3 @@ with open("emotion_model.json", "w") as json_file:
 
 # save trained model weight in .h5 file
 emotion_model.save_weights('emotion_model.h5')
-
-
-# In[ ]:
-
-
-
-
