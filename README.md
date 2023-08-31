@@ -14,7 +14,7 @@ The FER2013 dataset is a widely used benchmark for facial expression recognition
   
 ### Usage
 
-1. Download the FER2013 dataset from the Kaggle website or any other reliable source and place it in the `dataset/` folder.
+1. Download the FER2013 dataset from the Kaggle website or any other reliable source and place it in the dataset folder.
 
 2. Preprocess the dataset:
 
