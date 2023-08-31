@@ -42,8 +42,7 @@ The Emotion Detection model architecture consists of a Convolutional Neural Netw
 
 ### Results
 
-Our trained model achieved an accuracy of 0.16675954304820284 on the FER2013 test set. The model shows robust performance in recognizing facial emotions, making it suitable for real-world applications.
-
+Our trained model achieved an accuracy of 0.16675954304820284 on the FER2013 test set.
 ### Acknowledgments
 
 We would like to thank the creators of the FER2013 dataset for providing valuable data for research and development in the field of facial expression recognition.
