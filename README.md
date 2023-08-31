@@ -10,52 +10,31 @@ The FER2013 dataset is a widely used benchmark for facial expression recognition
 
 - Python 3.x
 - OpenCV
-- TensorFlow (or any other compatible deep learning framework)
-
-### Installation
-
-1. Clone this repository to your local machine:
-
-```
-git clone https://github.com/your-username/emotion-detection.git
-```
-
-2. Install the required dependencies:
-
-```
-pip install opencv-python
-pip install tensorflow (or any other compatible deep learning framework)
-```
-
+- Keras
+  
 ### Usage
 
-1. Navigate to the project directory:
+1. Download the FER2013 dataset from the Kaggle website or any other reliable source and place it in the `dataset/` folder.
 
-```
-cd emotion-detection
-```
-
-2. Download the FER2013 dataset from the Kaggle website or any other reliable source and place it in the `dataset/` folder.
-
-3. Preprocess the dataset:
+2. Preprocess the dataset:
 
    - Perform data augmentation techniques (optional but recommended).
    - Normalize pixel values to [0, 1] range.
 
-4. Train the Emotion Detection model:
+3. Train the Emotion Detection model:
 
-   - Run the `train.py` script to train the CNN model on the preprocessed dataset.
+   - Run the `Train Emotion Detection.py` script to train the CNN model on the preprocessed dataset.
    - Tweak hyperparameters (e.g., learning rate, batch size, etc.) for optimal results.
 
-5. Evaluate the model:
+4. Evaluate the model:
 
-   - Use the `evaluate.py` script to assess the model's performance on a validation or test set.
+   - Use the `Evaluate Emotion Detector.py` script to assess the model's performance on a validation or test set.
    - Measure metrics such as accuracy, precision, recall, and F1-score.
 
-6. Real-time Emotion Detection:
+5. Real-time Emotion Detection:
 
    - Implement the real-time emotion detection application using the trained model.
-   - Run the `real_time_detection.py` script to activate the webcam and visualize emotion predictions in real-time.
+   - Run the `Test Emotion Detection.py` script to activate the webcam and visualize emotion predictions in real-time.
 
 ### Model Architecture
 
